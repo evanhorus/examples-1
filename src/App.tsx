@@ -15,12 +15,12 @@ const Container = styled.div`
   justify-content: flex-start;
   align-items: stretch;
   align-content: stretch;
-  height: 100%;
+  height: 70%;
   background-color: red;
 `;
 
 const ModifiedContainer = styled(Container)`
-  background-color: aquamarine;
+  background-color: burlywood;
 `
 
 export const App = () => {
@@ -28,7 +28,7 @@ export const App = () => {
         <Container>
             <ModifiedContainer>
                 <div className='myClass'>
-                    Hello
+                    Hello random text
                 </div>
             </ModifiedContainer>
             <div style={{backgroundColor: 'blue', flex: 1}}>
@@ -41,6 +41,9 @@ export const App = () => {
             <StyledDiv>
                 Hello
             </StyledDiv>
+            <div>
+                what is here
+            </div>
         </Container>
     );
 }
