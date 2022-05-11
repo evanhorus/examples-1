@@ -13,7 +13,7 @@ const Container = styled.div`
   justify-content: flex-start;
   align-items: stretch;
   align-content: stretch;
-  height: 300%;
+  height: 100%;
 `;
 
 export const App = () => {
