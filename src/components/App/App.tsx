@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/App.css'
-import {MyComponent2, MyComponents} from "../MyComponent";
+import {MyComponents} from "../MyComponent";
+import {URLFetch} from "../URLFetch";
 import {ExamplePage} from "../../pages";
 import {Styled} from './styled';
 
@@ -36,7 +37,7 @@ export const App = () => {
             <div style={{backgroundColor: 'blue', flex: 1}}>
                 <ExamplePage>
                     <MyComponents myProp={42}/>
-                    <MyComponent2/>
+                    <URLFetch/>
                 </ExamplePage>
                 Hello
             </div>

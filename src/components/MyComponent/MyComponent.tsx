@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 
-
 interface MyComponentsProps {
     myProp: number,
     mySecondProp?: string
@@ -34,16 +33,4 @@ export const MyComponents: React.FC<MyComponentsProps> = (props) => {
     );
 }
 
-export const MyComponent2: React.FC = (props) => {
-    useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/todos/1')
-            .then(response => response.json())
-            .then(json => console.log(json))
-    }, []);
 
-    return (
-        <>
-            <h1>33</h1>
-        </>
-    );
-}
