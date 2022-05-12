@@ -1,18 +1,12 @@
 import React, {useEffect, useState} from 'react';
-// 0, 1, 2, 3, 4,
-const a = [1, 2];
-
-console.log("A[0]", a[0]);
-console.log("A[1]", a[1]);
 
 
-const [first, second] = [1, 2];
+interface MyComponentsProps {
+    myProp: number,
+    mySecondProp?: string
+}
 
-console.log("A[0] === first", first);
-console.log("A[1] === second", second);
-
-
-export const MyComponents: React.FC<{ myProp: number, mySecondProp?: string }> = (props) => {
+export const MyComponents: React.FC<MyComponentsProps> = (props) => {
     const [myNumber, setMyNumber] = useState('42');
 
     useEffect(() => {
