@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
-import { c, MyComponents, MyComponent2, App} from './components';
+import { c, MyComponents, App} from './components';
 
 import './styles/index.css';
 

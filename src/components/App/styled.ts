@@ -11,9 +11,11 @@ const Container = styled.div`
   justify-content: flex-start;
   align-items: stretch;
   align-content: stretch;
-  height: 70%;
+  height: 100%;
   background-color: red;
 `;
+
+Container.displayName = 'Main Container';
 
 const ModifiedContainer = styled(Container)`
   background-color: burlywood;
