@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {CommonSizes} from "./constants";
 
 export const StyledDiv = styled.div`
-  background-color: yellow;
+  background-color: #e2f67e;
   display: flex;
 `;
 

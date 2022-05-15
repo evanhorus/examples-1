@@ -16,6 +16,9 @@ export const App = () => {
             <Styled.StyledDiv>
                 Hello
             </Styled.StyledDiv>
+            <Styled.StyledDiv>
+                NavBarUnder
+            </Styled.StyledDiv>
         </Styled.Container>
     );
 }
