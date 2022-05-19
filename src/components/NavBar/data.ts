@@ -39,18 +39,3 @@ export const navbarElements = [
         redirectPage: '/language/ua',
     }
 ]
-
-export const navbarMyTry2 = [
-    {
-        id: '7',
-        title: 'ENG',
-        isCurrent: false,
-        redirectPage: '/language/eng'
-    },
-    {
-        id: '8',
-        title: 'POL',
-        isCurrent: false,
-        redirectPage: '/language/pol'
-    }
-]

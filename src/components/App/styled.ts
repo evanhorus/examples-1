@@ -39,4 +39,4 @@ export const Styled = {
     StyledDiv,
     Container,
     ModifiedContainer,
-}
+};
